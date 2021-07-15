@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/sultanfeto/.nvm/versions/node/v14.9.0/bin/node /Users/sultanfeto/.nvm/versions/node/v14.9.0/bin/yarn start
+
+PATH: 
+  /Users/sultanfeto/.nvm/versions/node/v14.9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/sultanfeto/.nvm/versions/node/v14.9.0/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sultanfeto/Desktop/Portfolio/portfolioPage/package.json: Unexpected token } in JSON at position 375
+      at JSON.parse (<anonymous>)
+      at /Users/sultanfeto/.nvm/versions/node/v14.9.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/sultanfeto/.nvm/versions/node/v14.9.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/sultanfeto/.nvm/versions/node/v14.9.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "portfoliopage",
+    "version": "1.0.0",
+    "description": "portfolio page",
+    "main": "index.html",
+    "scripts": {
+      "start": "npm run lite",
+      "lite": "lite-server",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+      "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+    },
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Sultan1992/portfolioPage.git"
+    },
+    "author": "sultan feto",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Sultan1992/portfolioPage/issues"
+    },
+    "homepage": "https://github.com/Sultan1992/portfolioPage#readme",
+    "devDependencies": {
+      "lite-server": "^2.6.1",
+      "onchange": "^7.0.0",
+      "parallelshell": "3.0.1"
+    },
+    "dependencies": {
+      "bootstrap": "^4.5.2",
+      "font-awesome": "^4.7.0",
+      "jquery": "^3.5.1",
+      "popper.js": "^1.16.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
